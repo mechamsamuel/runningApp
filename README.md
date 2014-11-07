@@ -50,3 +50,32 @@ Once in the correct foler you will need to run this command to launch the app in
  ```sh
  ionic serve
 ```
+
+###On a IOS emulater - for mac users
+
+If you have not set up your IOS SDK you will need to do this before emulating the app. This link will guide you through how to do this
+
+http://cordova.apache.org/docs/en/3.4.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide
+
+Now that you have the IOS SDK all set up...
+
+
+When you are still in the foolder for this app in the command line you will need to run the following command to do a local ios build of the application
+
+```sh
+sudo ionic build ios
+```
+
+Then do actual emulate the app you need to run the command
+
+```sh
+sudo ionic emulate ios
+```
+###On a IOS device
+When in the app folder if you have your IOS platform SDK set up correctly you just need to run the command
+
+```sh
+sudo ionic run ios
+```
+
+and it should build the app to your phone

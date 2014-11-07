@@ -42,7 +42,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/dash',
       views: {
         'tab-dash': {
-          templateUrl: 'templates/tab-dash.html',
+          templateUrl: 'templates/tab-logMiles.html',
           controller: 'DashCtrl'
         }
       }
@@ -52,7 +52,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/friends',
       views: {
         'tab-friends': {
-          templateUrl: 'templates/tab-friends.html',
+          templateUrl: 'templates/tab-breakdowns.html',
           controller: 'FriendsCtrl'
         }
       }
@@ -71,8 +71,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/account',
       views: {
         'tab-account': {
-          templateUrl: 'templates/tab-account.html',
-          controller: 'AccountCtrl'
+          templateUrl: 'templates/tab-averages.html',
+          controller: 'AveragesTimeCtrl'
         }
       }
     });
