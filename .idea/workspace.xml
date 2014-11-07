@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef309f83-965a-4671-8ace-40e80be48a27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-averages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-logMiles.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-account.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-dash.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-friends.html" afterPath="$PROJECT_DIR$/www/templates/tab-breakdowns.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="runningApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +58,8 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7991004" vertical-offset="0" max-vertical-offset="1305">
-              <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.9550225" vertical-offset="623" max-vertical-offset="1350">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,7 +150,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="223" />
     <option name="y" value="26" />
-    <option name="width" value="1090" />
+    <option name="width" value="1113" />
     <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -283,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="26" width="1090" height="825" extended-state="0" />
+    <frame x="223" y="26" width="1113" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -291,7 +280,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3027523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29649594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -423,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7991004" vertical-offset="0" max-vertical-offset="1305">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.9550225" vertical-offset="623" max-vertical-offset="1350">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>

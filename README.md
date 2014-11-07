@@ -1,7 +1,7 @@
 Running App
 =========
 
-This will be a mobile app that will log how much users have ran. Users will input how much they run each day and the app will keep track of everything they input. From there it will do two things with the data. First it will just give basic breakdowns of how much the user is running daily or weekly. It will keep all the breakdowns so you could see how much you ran two weeks ago, compared to last week for example. Then it will also take all the breakdowns and give one concise average. For example it would take all the days the user runs and average them out, so that in one quick look the user can see that they average 2.9 miles a day or whatever their average is. This will be for anybody that runs. It can range all the way from the heavy runner that is training for a marathon, down to your neighbor that is trying to run 2 miles a week to lower her cholesterol. 
+This will be a mobile app that will log how much users have ran. Users will input how much they run each day and the app will keep track of everything they input. From there it will do two things with the data. First it will just give basic breakdowns of how much the user is running. It will keep all the breakdowns so you could see how much you ran two weeks ago, compared to last week for example. Then it will also take all the breakdowns and give one concise average. For example it would take all the days the user runs and average them out, so that in one quick look the user can see that they average 2.9 miles a day or whatever their average is. This will be for anybody that runs. It can range all the way from the heavy runner that is training for a marathon, down to your neighbor that is trying to run 2 miles a week to lower her cholesterol. 
 
 To get the Technology for the Running App 
 ----
@@ -36,12 +36,12 @@ Otherwise if you are using the mac terminal you will need to put sudo in front o
  sudo npm install cordova -g
 ```
 
-To get Running App, well running 
+To get the Running App, well running 
 ----
 
 ###On a Browser
 
-Once again while in the terminal or whatever software you use to execture commands you need to get change directoried to get to the folder the Running App is in. To do this you would run 'cd' command.
+Once again while in the terminal or whatever software you use to execture commands you need to change directoried to get to the folder the Running App is in. To do this you would run 'cd' command.
  ```sh
  cd (the path to the folder)
 ```
@@ -66,16 +66,19 @@ When you are still in the foolder for this app in the command line you will need
 sudo ionic build ios
 ```
 
-Then do actual emulate the app you need to run the command
+Then to actually emulate the app you need to run the command 
 
 ```sh
 sudo ionic emulate ios
 ```
-###On a IOS device
+###On a IOS device 
 When in the app folder if you have your IOS platform SDK set up correctly you just need to run the command
 
 ```sh
 sudo ionic run ios
 ```
 
-and it should build the app to your phone
+and it should build the app to your phone.
+
+Thanks for showing interest in my app. 
+
