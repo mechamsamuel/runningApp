@@ -3,6 +3,18 @@
 
       <ion-list>
 
+          <ion-item type="item-text-wrap" ui-sref="day">
+              <p>Day</p>
+          </ion-item>
+
+          <ion-item type="item-text-wrap" ui-sref="month">
+              <p>Month</p>
+          </ion-item>
+
+          <ion-item type="item-text-wrap" ui-sref="year">
+              <p>Year</p>
+          </ion-item>
+
           <ion-item ng-repeat="friend in friends" type="item-text-wrap">
               {{friend.name}}
           </ion-item>

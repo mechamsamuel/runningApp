@@ -67,6 +67,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+      .state('day', {
+          url: '/breakdowns/day',
+          templateUrl: 'templates/day.html',
+          controller: 'dayBreakdown'
+
+      })
+
+      .state('month', {
+          url: '/breakdowns/month',
+          templateUrl: 'templates/month.html',
+          controller: 'monthBreakdown'
+      })
+
+      .state('year', {
+          url: '/breakdowns/year',
+          templateUrl: 'templates/year.html',
+          controller: 'yearBreakdown'
+      })
+
     .state('tab.account', {
       url: '/account',
       views: {
@@ -75,6 +94,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           controller: 'AveragesTimeCtrl'
         }
       }
+
+
     });
 
   // if none of the above states are matched, use this as the fallback
