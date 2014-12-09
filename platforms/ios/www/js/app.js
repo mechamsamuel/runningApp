@@ -48,10 +48,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-    .state('tab.friends', {
-      url: '/friends',
+    .state('tab.breakdowns', {
+      url: '/breakdowns',
       views: {
-        'tab-friends': {
+        'tab-breakdowns': {
           templateUrl: 'templates/tab-breakdowns.html',
           controller: 'FriendsCtrl'
         }
@@ -67,14 +67,35 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+      .state('tab.day', {
+          url: '/breakdowns/day',
+          templateUrl: 'templates/day.html',
+          controller: 'dayBreakdown'
+
+      })
+
+      .state('month', {
+          url: '/breakdowns/month',
+          templateUrl: 'templates/month.html',
+          controller: 'monthBreakdown'
+      })
+
+      .state('year', {
+          url: '/breakdowns/year',
+          templateUrl: 'templates/year.html',
+          controller: 'yearBreakdown'
+      })
+
     .state('tab.account', {
       url: '/account',
       views: {
         'tab-account': {
           templateUrl: 'templates/tab-averages.html',
-          controller: 'AccountCtrl'
+          controller: 'AveragesTimeCtrl'
         }
       }
+
+
     });
 
   // if none of the above states are matched, use this as the fallback

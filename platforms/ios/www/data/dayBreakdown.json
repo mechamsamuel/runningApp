@@ -1,0 +1,19 @@
+[
+    {
+        "clientId": 1,
+        "firstName": "Jill",
+        "lastName": "Reagan",
+        "emailAddress": "jill@gmail.com",
+        "phone": "801-555-3214"
+
+    },
+    {
+        "clientId": 2,
+        "firstName": "Paul",
+        "lastName": "walker",
+        "emailAddress": "p.walker@gmail.com",
+        "phone": "801-555-3214"
+
+    }
+
+ ]
