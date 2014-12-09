@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 
 img.logo {
-    width: 30%;
+    width: 22%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,12 +25,14 @@ div.keep_open{
 
 input.logMilesInput{
 
-    margin: 1em;
     border: #ccc 1px solid;
     border-radius: 5px;
     width: 90%;
     display: block;
     text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 h1{
@@ -54,4 +56,19 @@ button{
 a.submitBtn {
 
     text-decoration: none;
+}
+
+h4{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    padding: .5em;
+}
+
+p{
+
+    margin: 0 0 10px;
+    color: #777;
+    font-size: 16px;
+    text-align: center;
 }

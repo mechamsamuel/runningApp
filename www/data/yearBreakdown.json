@@ -1,18 +1,32 @@
 [
     {
         "clientId": 1,
-        "firstName": "Jill",
-        "lastName": "Reagan",
-        "emailAddress": "jill@gmail.com",
-        "phone": "801-555-3214"
+        "date": "2014",
+        "miles": "1,012 miles"
 
     },
     {
         "clientId": 2,
-        "firstName": "Paul",
-        "lastName": "walker",
-        "emailAddress": "p.walker@gmail.com",
-        "phone": "801-555-3214"
+        "date": "2013",
+        "miles": "804 miles"
+
+    },
+    {
+        "clientId": 3,
+        "date": "2012",
+        "miles": "661 miles"
+
+    },
+    {
+        "clientId": 4,
+        "date": "2011",
+        "miles": "403 miles"
+
+    },
+    {
+        "clientId": 5,
+        "date": "2010",
+        "miles": "101 miles"
 
     }
 

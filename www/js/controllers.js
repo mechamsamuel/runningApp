@@ -23,6 +23,15 @@ angular.module('starter.controllers', [])
     }]
 )
 
+    .controller("weekBreakdown", ['$scope','$http', function($scope, $http)
+    {
+        $http.get('data/weekBreakdown.json').success (function(data){
+            console.log(data);
+            $scope.weekBreakdown = data;
+        });
+    }]
+)
+
     .controller("monthBreakdown", ['$scope','$http', function($scope, $http)
     {
         $http.get('data/monthBreakdown.json').success (function(data){

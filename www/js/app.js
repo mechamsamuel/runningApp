@@ -48,10 +48,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-    .state('tab.friends', {
-      url: '/friends',
+    .state('tab.breakdowns', {
+      url: '/breakdowns',
       views: {
-        'tab-friends': {
+        'tab-breakdowns': {
           templateUrl: 'templates/tab-breakdowns.html',
           controller: 'FriendsCtrl'
         }
@@ -67,23 +67,45 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-      .state('day', {
+      .state('tab.day', {
           url: '/breakdowns/day',
-          templateUrl: 'templates/day.html',
-          controller: 'dayBreakdown'
+          views: {
+              'tab-breakdowns': {
+                  templateUrl: 'templates/day.html',
+                  controller: 'dayBreakdown'
+              }
+          }
+      })
+
+      .state('tab.week', {
+          url: '/breakdowns/week',
+          views: {
+              'tab-breakdowns': {
+                  templateUrl: 'templates/week.html',
+                  controller: 'weekBreakdown'
+              }
+          }
 
       })
 
-      .state('month', {
+      .state('tab.month', {
           url: '/breakdowns/month',
-          templateUrl: 'templates/month.html',
-          controller: 'monthBreakdown'
+          views: {
+              'tab-breakdowns': {
+                  templateUrl: 'templates/month.html',
+                  controller: 'monthBreakdown'
+              }
+          }
       })
 
-      .state('year', {
+      .state('tab.year', {
           url: '/breakdowns/year',
-          templateUrl: 'templates/year.html',
-          controller: 'yearBreakdown'
+          views: {
+              'tab-breakdowns': {
+                  templateUrl: 'templates/year.html',
+                  controller: 'yearBreakdown'
+              }
+          }
       })
 
     .state('tab.account', {

@@ -1,9 +1,11 @@
-<ion-view title="Averages">
+<ion-view title="Breakdowns">
     <ion-content class="padding">
         <h1>Day</h1>
 
         <ion-item ng-repeat="dayBreakdown in dayBreakdown" type="item-text-wrap">
-            {{dayBreakdown.firstName}}
+            {{dayBreakdown.date}}<br>
+            {{dayBreakdown.miles}}<br>
+            {{dayBreakdown.time}}
         </ion-item>
 
 

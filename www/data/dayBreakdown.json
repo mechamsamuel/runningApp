@@ -1,19 +1,45 @@
 [
     {
         "clientId": 1,
-        "firstName": "Jill",
-        "lastName": "Reagan",
-        "emailAddress": "jill@gmail.com",
-        "phone": "801-555-3214"
+        "date": "November 8, 2014",
+        "miles": "5",
+        "time": "37:26"
 
     },
     {
         "clientId": 2,
-        "firstName": "Paul",
-        "lastName": "walker",
-        "emailAddress": "p.walker@gmail.com",
-        "phone": "801-555-3214"
+        "date": "November 6, 2014",
+        "miles": "3",
+        "time": "21:19"
+
+    },
+    {
+        "clientId": 3,
+        "date": "November 5, 2014",
+        "miles": "2",
+        "time": "12:47"
+
+    },
+    {
+        "clientId": 4,
+        "date": "November 3, 2014",
+        "miles": "4",
+        "time": "31:56"
+
+    },
+    {
+        "clientId": 5,
+        "date": "November 1, 2014",
+        "miles": "1.4",
+        "time": "9:12"
+
+    },
+    {
+        "clientId": 6,
+        "date": "October 27, 2014",
+        "miles": "3.5",
+        "time": "26:32"
 
     }
 
- ]
+]
