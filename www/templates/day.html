@@ -3,9 +3,9 @@
         <h1>Day</h1>
 
         <ion-item ng-repeat="dayBreakdown in dayBreakdown" type="item-text-wrap">
-            {{dayBreakdown.date}}<br>
+            <span class="balanced">{{dayBreakdown.date}}</span><br>
             {{dayBreakdown.miles}}<br>
-            {{dayBreakdown.time}}
+            <span class="positive">{{dayBreakdown.time}}</span>
         </ion-item>
 
 

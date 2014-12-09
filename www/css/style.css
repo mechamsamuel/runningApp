@@ -44,7 +44,7 @@ button{
     margin: auto!important;
     display: block!important;
     padding: .5em 10em;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #f0b840;
     color: #fff;
     text-decoration: none;
@@ -54,7 +54,7 @@ button{
 }
 
 a.submitBtn {
-
+    margin: .7em;
     text-decoration: none;
 }
 
@@ -68,7 +68,20 @@ h4{
 p{
 
     margin: 0 0 10px;
-    color: #777;
+
     font-size: 16px;
     text-align: center;
 }
+
+.button.button-energized{
+
+    border-radius: 5px;
+}
+
+.item{
+
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+

@@ -2,42 +2,42 @@
     {
         "clientId": 1,
         "date": "November 8, 2014",
-        "miles": "5",
+        "miles": "5 miles",
         "time": "37:26"
 
     },
     {
         "clientId": 2,
         "date": "November 6, 2014",
-        "miles": "3",
+        "miles": "3 miles",
         "time": "21:19"
 
     },
     {
         "clientId": 3,
         "date": "November 5, 2014",
-        "miles": "2",
+        "miles": "2 miles",
         "time": "12:47"
 
     },
     {
         "clientId": 4,
         "date": "November 3, 2014",
-        "miles": "4",
+        "miles": "4 miles",
         "time": "31:56"
 
     },
     {
         "clientId": 5,
         "date": "November 1, 2014",
-        "miles": "1.4",
+        "miles": "1.4 miles",
         "time": "9:12"
 
     },
     {
         "clientId": 6,
         "date": "October 27, 2014",
-        "miles": "3.5",
+        "miles": "3.5 miles",
         "time": "26:32"
 
     }
